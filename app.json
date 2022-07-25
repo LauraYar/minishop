@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/cate/cate",
+    "pages/shopcar/shopcar",
+    "pages/mine/mine"
+  ],
+ 
+"window": {
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#bf0002",
+  "navigationBarTitleText": "小店优惠",
+  "navigationBarTextStyle": "black"
+},
+"tabBar": {
+  "list": [{
+    "pagePath": "pages/home/home",
+    "text": "首页",
+    "iconPath": "/static/tab_icons/home.png",
+    "selectedIconPath": "/static/tab_icons/home-active.png"
+  },{
+    "pagePath": "pages/cate/cate",
+    "text": "分类",
+    "iconPath": "/static/tab_icons/cate.png",
+    "selectedIconPath": "/static/tab_icons/cate-active.png"
+  },{
+    "pagePath": "pages/shopcar/shopcar",
+    "text": "购物车",
+    "iconPath": "/static/tab_icons/cart.png",
+    "selectedIconPath": "/static/tab_icons/cate-active.png"
+  },{
+    "pagePath": "pages/mine/mine",
+    "text": "我的",
+    "iconPath": "/static/tab_icons/my.png",
+    "selectedIconPath": "/static/tab_icons/my-active.png" 
+  }]
+},
+"style": "v2",
+"sitemapLocation": "sitemap.json"
+}
